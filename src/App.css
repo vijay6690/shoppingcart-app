@@ -1,0 +1,72 @@
+
+.filters{
+    position: sticky;
+    top: 50px;
+}
+ .span{
+    padding-bottom: 20px;
+    margin: 5px ;
+}
+.title{
+    font-size: 30px;
+}
+
+.card{
+    width: 25%;
+    padding: 10px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.inp{
+    width: 300px;
+    height: 35px;
+    margin-top: 12px;
+    border-radius: 5px;
+    
+}
+.inp2{
+    margin-left: 100px;
+} 
+.drop{
+    margin-right: 200px;
+}
+.cart-itemsDrop{
+    display: flex;
+    align-items: center;
+}
+.cartItemImageDrop{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.drop{
+    margin-right: 230px;
+    width: 100px;
+}
+.cart-itemsDrop{
+    margin: 10px 0;
+}
+.gocartDrop{
+    position: sticky;
+    bottom: 0;
+}
+.product-container{
+}
+.card{
+    width: 30%;
+}
+.card:hover{
+    transform: scale(0.95);
+    transition: all 0.5s ease-in-out;
+}
+.cartItemImage{
+    /* width: 250px; */
+}
+.signup{
+    /* margin-left: 52px; */
+}
