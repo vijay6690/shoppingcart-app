@@ -1,13 +1,16 @@
 import { configureStore } from "@reduxjs/toolkit";
-import productReducer from "../features/product/productSlice";
-import cartReducer from "../features/cart/cartSlice";
-// import { authSlice } from "../features/auth/authSlice";
+import ProductReducer from "../features/product/ProductSlice";
+import CartReducer from "../features/cart/cartSlice";
 import authReducer from "../features/auth/authSlice";
+import orderReducer from "../features/orders/OrderSlice";
+import userReducer from "../features/user/userSlice";
 
 export const store = configureStore({
   reducer: {
-    product: productReducer,
-    cart: cartReducer,
-    userauth: authReducer,
+    product: ProductReducer,
+    cart: CartReducer,
+    auth: authReducer,
+    order: orderReducer,
+    user: userReducer,
   },
 });
